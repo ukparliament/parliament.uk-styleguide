@@ -1,0 +1,27 @@
+{
+  "name": "ukparliament-styleguide",
+  "version": "1.0.0",
+  "description": "Styleguide for UK Parliament",
+  "author": "UK Parliament",
+  "license": "MIT",
+  "engines": {
+    "node": "7.x"
+  },
+  "homepage": "https://github.com/UsmanAfzal/styleguide-static#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UsmanAfzal/styleguide-static.git"
+  },
+  "bugs": {
+    "url": "https://github.com/UsmanAfzal/styleguide-static/issues"
+  },
+  "scripts": {},
+  "main": "server.js",
+  "devDependencies": {
+    "pa11y": "^4.4.0",
+    "readdir": "0.0.13"
+  },
+  "dependencies": {
+    "parliamentuk-pugin": "git+https://github.com/ukparliament/parliament.uk-pugin.git#development"
+  }
+}

@@ -1,0 +1,19 @@
+doctype html
+html(lang="en")
+  head
+    title Parliamentary Digital Service
+    link(rel="stylesheet", href="../stylesheets/main.css")
+    link(rel="stylesheet", href="../stylesheets/overrides.css")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+  body.no-js
+    include ../../node_modules/parliamentuk-pugin/src/elements/skip-content.pug
+    a(id="top")
+    include ../../node_modules/parliamentuk-pugin/src/components/header.pug
+    main(id="content")
+      .c-fg
+        .row.spacer__vertical-bottom-large
+          block content
+    include ../../node_modules/parliamentuk-pugin/src/components/footer.pug
+    script(src="../javascripts/main.js")
+    script(src="../javascripts/overrides.js")
+    block script
