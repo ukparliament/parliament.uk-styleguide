@@ -18,10 +18,6 @@
   "scripts": {},
   "main": "server.js",
   "devDependencies": {
-    "pa11y": "^4.4.0",
-    "readdir": "0.0.13"
-  },
-  "dependencies": {
     "parliamentuk-pugin": "git+https://github.com/ukparliament/parliament.uk-pugin.git"
   }
 }
