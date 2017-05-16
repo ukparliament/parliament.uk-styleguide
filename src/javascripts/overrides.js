@@ -1,3 +1,3 @@
 (function () {
-  console.log("Override javascript executed!")
+  console.log('Override javascript executed!');
 })();
